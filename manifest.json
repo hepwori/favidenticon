@@ -2,7 +2,7 @@
     "manifest_version": 2,
 
     "name": "FavIdenticon for Google Docs",
-    "version": "1.0",
+    "version": "1.0.1",
 	"author": "@isaach",
 	"description": "Gives Docs, Sheets, and Slides unique favicons per document.",
 
