@@ -3,6 +3,7 @@ var docHash = sha1(docId);
 var bgColor;
 switch (document.URL.match(/docs.google.com\/(\w+)/)[1]) {
 	case 'document': bgColor = [70, 136, 241, 255]; break;
+	case 'forms': bgColor = [103, 58, 183, 255]; break;
 	case 'presentation': bgColor = [243, 179, 42, 255]; break;
 	case 'spreadsheets': bgColor = [30, 156, 90, 255];
 }
