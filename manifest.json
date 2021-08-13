@@ -4,7 +4,7 @@
     "name": "FavIdenticon for Google Docs",
     "version": "1.0.2",
 	"author": "@isaach",
-	"description": "Gives Docs, Sheets, and Slides unique favicons per document.",
+	"description": "Gives Docs, Sheets, Slides, Forms, and Drawings unique favicons per document.",
 
 	"icons": { "16": "icons/icon16.png",
 	           "48": "icons/icon48.png",
