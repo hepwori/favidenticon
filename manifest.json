@@ -1,8 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
 
     "name": "FavIdenticon for Google Docs",
-    "version": "1.0.2",
+    "version": "1.1.0",
 	"author": "@isaach",
 	"description": "Gives Docs, Sheets, Slides, Forms, and Drawings unique favicons per document.",
 
@@ -15,6 +15,9 @@
           "matches": ["https://docs.google.com/*"],
           "js": [ "lib/sha1.js", "lib/pnglib.js", "lib/identicon.js", "index.js" ]
         }
+    ],
+    "host_permissions": [
+        "https://docs.google.com/*"
     ]
 
  }
